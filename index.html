@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>AUDREY COIFFURE — Salon à Novara</title>
+  <meta name="description" content="AUDREY COIFFURE - Salon de coiffure à Novara. Services : coiffure hommes, coiffure femmes, locks, marley twist. Contactez-nous pour rendez-vous.">
+  <style>
+    :root{
+      --rose-clair:#ffe9ef;
+      --rose-fonce:#ff4d88;
+      --text:#2b2b2b;
+      --muted:#666666;
+      --card-shadow:0 8px 24px rgba(255,77,136,0.08);
+      font-family:Inter,system-ui,-apple-system,'Segoe UI',Roboto,'Helvetica Neue',Arial;
+    }
+    body{margin:0;color:var(--text);background:linear-gradient(180deg,var(--rose-clair),#fff);}
+    header{padding:36px 20px;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap}
+    .brand{display:flex;align-items:center;gap:16px}
+    .logo{width:72px;height:72px;border-radius:12px;background:linear-gradient(135deg,var(--rose-fonce),#ffa0c4);display:flex;align-items:center;justify-content:center;color:white;font-weight:700;font-size:18px}
+    h1{margin:0;font-size:22px}
+    p.lead{margin:6px 0 0;color:var(--muted)}
+    nav a{margin-left:14px;text-decoration:none;color:var(--text);font-weight:600}
+    .hero{display:grid;grid-template-columns:1fr;gap:20px;padding:20px;align-items:center}
+    .hero-card{background:white;border-radius:18px;padding:28px;box-shadow:var(--card-shadow)}
+    .cta{display:inline-block;background:var(--rose-fonce);color:white;padding:12px 18px;border-radius:12px;text-decoration:none;font-weight:700}
+    .grid{display:grid;grid-template-columns:1fr;gap:18px;padding:20px}
+    .cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:18px}
+    .card{background:white;border-radius:14px;padding:18px;box-shadow:var(--card-shadow)}
+    .price{font-size:20px;font-weight:700;color:var(--rose-fonce)}
+    footer{padding:20px;text-align:center;color:var(--muted)}
+    .contact{display:grid;gap:16px}
+    label{display:block;font-weight:600;margin-bottom:6px}
+    input,textarea{width:100%;padding:10px;border-radius:8px;border:1px solid #eee;font-size:15px}
+    button.primary{background:var(--rose-fonce);color:white;border:none;padding:12px 16px;border-radius:10px;font-weight:700}
+    .muted{color:var(--muted)}
+    .small{font-size:13px}
+    .map-link{display:inline-block;margin-top:8px;text-decoration:none;color:var(--rose-fonce);font-weight:600}
+    .gallery{padding:20px}
+    .gallery h2{text-align:center;margin-bottom:16px}
+    .gallery-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:16px}
+    .gallery-grid img{width:100%;border-radius:14px;box-shadow:var(--card-shadow);object-fit:cover}
+  </style>
+</head>
+<body>
+<header>
+  <div class="brand">
+    <div class="logo">AC</div>
+    <div>
+      <h1>AUDREY COIFFURE</h1>
+      <p class="lead">Salon à Novara — Via Giuseppe Luigi Passalacqua 11</p>
+    </div>
+  </div>
+  <nav>
+    <a href="#services">Services</a>
+    <a href="#tarifs">Tarifs</a>
+    <a href="#galerie">Galerie</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<main>
+  <section class="hero">
+    <div class="hero-card">
+      <h2>Bienvenue chez AUDREY COIFFURE</h2>
+      <p class="muted">Un salon moderne et élégant à Novara. Coupes, couleurs, locks et marley twist — réalisés par une équipe passionnée.</p>
+      <a class="cta" href="#services">Voir nos services</a>
+      <p style="margin-top:12px"><strong>Téléphone:</strong> <a href="tel:+393792641011">+39 379 264 1011</a><br><strong>Email:</strong> <a href="mailto:audreynadia.39@gmail.com">audreynadia.39@gmail.com</a></p>
+    </div>
+    <div style="border-radius:18px;overflow:hidden;min-height:260px;background:linear-gradient(135deg,var(--rose-fonce),#ffc4df);display:flex;align-items:center;justify-content:center;color:white;padding:20px">
+      <div>
+        <h3 style="margin:0">Style moderne & élégant</h3>
+        <p class="small" style="margin-top:8px">Photos et galerie à découvrir ci-dessous.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="services" class="grid">
+    <div>
+      <h2>Nos services</h2>
+      <p class="muted">Des prestations personnalisées pour hommes et femmes, avec soin et savoir-faire.</p>
+      <div class="cards">
+        <div class="card"><h3>Coiffure femmes</h3><p class="muted">Shampoing, coupe et coiffage.</p><div class="price">À partir de 40 €</div></div>
+        <div class="card"><h3>Coiffure hommes</h3><p class="muted">Coupe moderne et entretien.</p><div class="price">À partir de 25 €</div></div>
+        <div class="card"><h3>Locks</h3><p class="muted">Création et entretien de locks.</p><div class="price">À partir de 40 €</div></div>
+        <div class="card"><h3>Marley Twist</h3><p class="muted">Tresses Marley Twist professionnelles.</p><div class="price">À partir de 45 €</div></div>
+      </div>
+    </div>
+    <aside class="card">
+      <h3>Horaires & Adresse</h3>
+      <p class="muted">Via Giuseppe Luigi Passalacqua 11, Novara, Italie</p>
+      <p class="muted">Lundi - Samedi : 9h00 - 19h00</p>
+      <a class="map-link" href="https://www.google.com/maps/search/?api=1&query=via+giuseppe+luigi+passalacqua+11+Novara+Italy" target="_blank">Voir sur Google Maps</a>
+    </aside>
+  </section>
+
+  <section id="tarifs" style="padding:20px">
+    <div class="hero-card">
+      <h2>Tarifs</h2>
+      <table style="width:100%;margin-top:12px;border-collapse:collapse">
+        <tr><td style="padding:10px">Coiffure femmes</td><td style="padding:10px;text-align:right">À partir de 40 €</td></tr>
+        <tr><td style="padding:10px">Coiffure hommes</td><td style="padding:10px;text-align:right">À partir de 25 €</td></tr>
+        <tr><td style="padding:10px">Locks</td><td style="padding:10px;text-align:right">À partir de 40 €</td></tr>
+        <tr><td style="padding:10px">Marley Twist</td><td style="padding:10px;text-align:right">À partir de 45 €</td></tr>
+      </table>
+    </div>
+  </section>
+
+  <section id="galerie" class="gallery">
+    <h2>Inspiration Coiffure</h2>
+    <p class="muted" style="text-align:center;margin-bottom:20px">Découvrez quelques-unes de nos plus belles créations.</p>
+    <div class="gallery-grid">
+      <img src="1.jpg" alt="Tresses artistiques avec motif étoile">
+      <img src="3.jpg" alt="Locks et tresses blondes bouclées">
+      <img src="5.jpg" alt="Tresses cornrows en spirale">
+    </div>
+  </section>
+
+  <section id="contact" style="padding:20px">
+    <div class="hero-card">
+      <h2>Contact & Rendez-vous</h2>
+      <form action="mailto:audreynadia.39@gmail.com" method="post" enctype="text/plain">
+        <label for="name">Nom</label>
+        <input id="name" name="name" required>
+        <label for="phone">Téléphone</label>
+        <input id="phone" name="phone" required>
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+        <button class="primary" type="submit">Envoyer</button>
+      </form>
+      <p style="margin-top:14px" class="small muted">Ou appelez directement : <a href="tel:+393792641011">+39 379 264 1011</a></p>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <p class="small muted">© <span id="year"></span> AUDREY COIFFURE — Tous droits réservés</p>
+</footer>
+
+<script>
+  document.getElementById('year').textContent = new Date().getFullYear();
+</script>
+</body>
+</html>
